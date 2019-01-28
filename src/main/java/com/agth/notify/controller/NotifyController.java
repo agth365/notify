@@ -10,7 +10,7 @@ public class NotifyController {
     @RequestMapping(name = "/hnpay", method = {RequestMethod.POST, RequestMethod.GET})
     public String hnpay() {
 
-        return "succ";
+        return "200";
     }
 
 }
